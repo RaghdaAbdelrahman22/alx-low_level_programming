@@ -1,15 +1,14 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: 1 (error)
  */
 
 int main(void)
 {
-	char str[]="and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	fwrite(1,str,59);
-	return (0);
-
+	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";	
+	write(1, str, 59);	
+	return (1);
 }
