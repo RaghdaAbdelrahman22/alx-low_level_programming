@@ -16,4 +16,5 @@ int ldig = n % 10;
 		ldig *= -1;
 		_putchar(ldig + '0');
 		return (ldig);
+	}
 }
