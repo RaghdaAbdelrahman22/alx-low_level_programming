@@ -18,5 +18,4 @@
 
 		putchar('\n');
 	print_alphabet();
-	return (0);
 	}
