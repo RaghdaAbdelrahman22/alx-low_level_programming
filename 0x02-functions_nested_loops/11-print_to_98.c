@@ -11,16 +11,18 @@ if (n >= 98)
 {
 	do
 		n--;
-	while (n > 98)
+	while (n > 98);
 		_putchar(("%d") + ' ');
-_putchar(("%d\n"), n);
+_putchar("%d\n");
+_putchar(n);
 }
 else
 {
 	do
 		n++;
-	while (n < 98)
+	while (n < 98);
 		_putchar(("%d") + ' ');
-_putchar(("%d\n"), n);
+_putchar("%d\n");
+_putchar(n);
 }
 }
