@@ -14,5 +14,4 @@
 			putchar(c);
 
 		putchar('\n');
-	print_alphabet();
 	}
