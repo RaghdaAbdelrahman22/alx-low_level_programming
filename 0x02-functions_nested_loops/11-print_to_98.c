@@ -11,8 +11,9 @@ if (n >= 98)
 {
 	do
 		n--;
-	while (n > 98);
-		_putchar(("%d") + ' ');
+	while (n > 98)
+		_putchar("%d");
+		_putchar(' ');
 _putchar("%d\n");
 _putchar(n);
 }
@@ -20,8 +21,9 @@ else
 {
 	do
 		n++;
-	while (n < 98);
-		_putchar(("%d") + ' ');
+	while (n < 98)
+		_putchar("%d");
+		_putchar(' ');
 _putchar("%d\n");
 _putchar(n);
 }
