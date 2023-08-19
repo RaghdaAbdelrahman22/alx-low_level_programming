@@ -19,9 +19,9 @@ int main(void)
 		num1 = num2;
 		num2 = sum;
 		if (cntr == 49)
-			_putchar('\n');
+			putchar('\n');
 		else
-			_putchar(',');
+			putchar(',');
 	}
 	return (0);
 }
