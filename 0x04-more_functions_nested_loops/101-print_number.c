@@ -4,6 +4,7 @@
  * print_number - Printm integer.
  * @n: integer printed.
  */
+
 void print_number(int n)
 {
 	unsigned int num = n;
