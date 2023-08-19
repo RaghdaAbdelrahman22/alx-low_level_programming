@@ -8,23 +8,23 @@
 
 int main(void)
 {
-	int i;
+	int num;
 
-	for (i = 1; i <= 100; i++)
+	for (num = 1; num <= 100; num++)
 	{
-		if ((i % 3) == 0)
-			printf("Fizz");
-
-		else if ((i % 5) == 0)
-			printf("Buzz");
-
-		else if ((i % 3) == 0 && (i % 5) == 0)
+		if ((num % 3) == 0 && (num % 5) == 0)
 			printf("FizzBuzz");
 
-		else
-			printf("%d", n);
+		else if ((num % 3) == 0)
+			printf("Fizz");
 
-		if (i == 100)
+		else if ((num % 5) == 0)
+			printf("Buzz");
+
+		else
+			printf("%d", num);
+
+		if (num == 100)
 			continue;
 		printf(" ");
 	}
