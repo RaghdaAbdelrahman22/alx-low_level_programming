@@ -21,7 +21,7 @@ int main(void)
 		if (cntr == 49)
 			putchar('\n');
 		else
-			putchar(', ');
+			printf(", ");
 	}
 	return (0);
 }
