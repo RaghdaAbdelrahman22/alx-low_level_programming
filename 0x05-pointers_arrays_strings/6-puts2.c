@@ -4,7 +4,7 @@
  *puts2- prints every character of a string followed by newline.
  *@str: string printed.
  */
-void _puts(char *str)
+void _puts22(char *str)
 {
 	int i = 0, l = 0;
 	while (str[i])
