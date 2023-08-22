@@ -10,7 +10,7 @@ void print_rev(char *s)
 {
 	int l = 0;
 	while (s[l])
-		i++;
+		l++;
 	while(l--)
 		putchar(s[l]);
 
