@@ -13,6 +13,7 @@ void rev_string(char *s)
 
 	while (s[i++])
 		l++;
+
 	for (l = i - 1; i >= l / 2; i--)
 	{
 		tmp = s[i];
